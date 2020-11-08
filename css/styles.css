@@ -1,0 +1,209 @@
+
+.atribution a {
+  color: #6D6F78;
+}
+
+/* Mobile */
+/* Body Syle */
+body {
+  font-family: 'Spartan', sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+
+
+/* Images */
+.pattern-top-desktop {
+  display: none;
+}
+
+.pattern-top-mobile {
+  position: absolute;
+  top: 0;
+}
+
+.pattern-bottom-desktop {
+  display: none;
+}
+
+.pattern-bottom-mobile {
+  position: absolute;
+  top: 100%;
+}
+
+/* Header */
+.div-header {
+  margin: 100px 0 0 60px;
+  text-align: center;
+  width: 100%;
+}
+
+.h1-header {
+  font-weight: 700;
+  color: #8E398E;
+  font-size: 2.5rem;  width: 100%;
+}
+
+.p-header {
+  color: #937B92;
+}
+
+/* Reviews */
+.div-review {
+  color: #8E398E;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.stars {
+  position: relative;
+
+}
+
+.Reviews, .Guru, .BestTech {
+  background-color: #F7F2F7;
+  width: 100%;
+  padding: 15px 30px;
+  border-radius: 10px;
+  margin: 20px 50px;
+}
+
+/* Testimonials */
+.image-testimonial {
+  border-radius: 100%;
+  width: 50px;
+  margin: -20px 20px 0;
+}
+
+.div-testimonial h6 {
+  color: #EE68A4;
+}
+
+.div-testimonial p {
+  margin-top: 20px;
+}
+
+.client-name {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.testimonial-colton, .testimonial-irene, .testimonial-anne {
+  background-color: #8E398E;
+  color: #F7F2F7;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px 50px;
+  width: 100%;
+}
+
+/* Footer */
+.attribution {
+  display: none;
+}
+
+/* Tablet */
+@media screen and (min-width: 700px){
+/* Images */
+.row-header{
+  display: flex;
+
+
+}
+.div-header{
+  order: 1 1;
+  margin-left: 50px;
+  width: 60%;
+}
+.h1-header{
+  font-size: 3.5rem;
+}
+.p-header{
+  font-size: 1rem;
+}
+.div-review{
+  order:3;
+  margin: 100px 80px;
+}
+
+.div-testimonial{
+  display: flex;
+}
+.testimonial-colton, .testimonial-irene, .testimonial-anne{
+  padding: 30px;
+  margin: 20px;
+}
+
+}
+
+/* Desktop */
+@media screen and (min-width: 1200px){
+
+  /* Images */
+  .pattern-top-desktop {
+    display: block;
+    position: absolute;
+  }
+
+  .pattern-top-mobile {
+    display: none;
+  }
+
+  .pattern-bottom-desktop {
+    display: block;
+    position: absolute;
+    top: 250px;
+    right: 0px;
+  }
+
+  .pattern-bottom-mobile {
+    display: none;
+  }
+
+  .div-header{
+    text-align: left;
+    width:30%;
+    position: relative;
+    left: 100px;
+
+  }
+  .div-review{
+    width: 30%;
+    position: relative;
+    left: 200px;
+  }
+  .stars{
+    float: left;
+  }
+.Guru{
+  position: relative;
+  left: 30px;
+}
+.BestTech{
+  position: relative;
+  left: 60px;
+}
+.div-testimonial{
+  position: relative;
+  left: 100px;
+  width: 82%;
+}
+.testimonial-colton{
+  width: 70%;
+  margin-left: 50px;
+}
+.testimonial-irene{
+  position: relative;
+  width: 70%;
+  top: 30px;
+}
+.testimonial-anne{
+  position: relative;
+  top: 60px;
+  width: 70%;
+
+}
+
+}
